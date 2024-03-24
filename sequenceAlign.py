@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-# 有点搞，本来基准叫做query，匹配内容叫做match，但是好像别人都叫target和query，现在就是最后的结果改成了target和query，但是中间的变量命名全都没有变
-# 太坏了
+
+
 from Bio.Align import PairwiseAligner
 
 
