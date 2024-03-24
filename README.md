@@ -1,4 +1,14 @@
 # mutPro
 the database info of mutant proteins
 
-Haha, buddy's database hasn't been put into use yet, and you can't see the full data for the time being.
+非常感谢你能够来到这里查看mutPro代码
+蛋白质的折叠是非常复杂、但也非常有趣的工程
+
+为了保证生命活动的正常进行，一般来说蛋白质的折叠过程中会添加非常多的防止出错的小后门
+但是仍然存在一部分的错义突变，会导致蛋白质的结构在折叠过程中发生非常大的改变
+我认为这是非常有趣的
+
+因此，开始了这个有趣的突变蛋白质结构的研究工作，我愿称之为FunnyMutPro
+
+在这个库里，我会放进来一些处理数据相关的代码，如果你有兴趣的话可以看看，如果存在什么问题，也欢迎通过邮件的方式来联系我
+secret_sprite@zju.edu.cn
