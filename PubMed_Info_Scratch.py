@@ -46,7 +46,6 @@ def getInfo(pubMedID: str) -> pd.DataFrame:
         doi = article_page.find('span', class_='identifier doi').find('a', class_='id-link').get('href')
     except:
         doi = '/'
-    # print(doi)
     new_df = pd.DataFrame(
         {
             'PMID': [pubMedID],
@@ -55,7 +54,6 @@ def getInfo(pubMedID: str) -> pd.DataFrame:
             'Journal Long': [journal_longname],
             'Authors': [authors_join],
             'Abstract': [abstract],
-            # 'Abstract Trans':[trans],
             'Cit': [cit],
             'Secondary-date': [secondary_date],
             'Article Url': [url_new],
